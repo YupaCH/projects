@@ -1,26 +1,4 @@
-﻿<#
-=========================================================================================
-Name:           Allow External Sharing for Specific SharePoint Sites
-Version:        1.0
-Website:        blog.admindroid.com
 
-~~~~~~~~~~~~~~~~~~
-Script Highlights:
-~~~~~~~~~~~~~~~~~~
-1. The script utilizes SharePoint PnP PowerShell and installs it (if not already installed) upon your confirmation.
-2. The script allows you to configure external sharing for a single site.
-3. The script supports configuring external sharing for multiple sites.
-4. Admins can restrict external sharing for the remaining sites.
-5. It helps register the Entra ID app needed to use PnP PowerShell.
-6. The script exports a log file.
-7. It can be executed with an MFA-enabled account.
-8. This script also supports certificate-based authentication (CBA).
-9. The script is scheduler-friendly.
-
-For detailed script execution: https://blog.admindroid.com/allow-external-sharing-for-specific-sharepoint-sites/ 
-
-=========================================================================================
-#>
 param
 (
     [Parameter(Mandatory = $false)]
