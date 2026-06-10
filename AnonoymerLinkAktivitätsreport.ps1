@@ -14,7 +14,7 @@ Param
 
 Function Connect_Exo
 {
- #Check for EXO v2 module inatallation
+ #Check for EXO v3 module installation
  $Module = Get-Module ExchangeOnlineManagement -ListAvailable
  if($Module.count -eq 0) 
  { 
