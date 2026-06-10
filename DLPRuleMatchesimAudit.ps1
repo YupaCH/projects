@@ -1,28 +1,4 @@
-﻿<#
-=============================================================================================
-Name:           Audit DLP Policy Matches in Microsoft 365 
-Version:        1.0
-Website:        o365reports.com
 
-Script Highlights:  
-~~~~~~~~~~~~~~~~~
-1. Tracks DLP rules matched Microsoft Teams messages. 
-2. Audits SharePoint shared contents for DLP rule violations. 
-3. Identifies sensitive info shared through OneDrive files.   
-4. Monitors Exchange Email messages flagged by DLP policies.  
-5. This script retrieves DLP audit log for the last 180 days by default. 
-6. Helps to generate DLP audit reports for custom periods. 
-7. Monitors sensitive information shared by a specific user.  
-8. Lists DLP policy detections for targeted policy. 
-9. Can export DLP policy rule matches based on alerts severity (High, Medium, Low).  
-10. Exports report results to CSV file. 
-11. The script can be executed with an MFA-enabled account too. 
-12. Supports Certificate-based Authentication too. 
-13. Automatically installs the EXO Module (if not installed already) upon your confirmation. 
-14. This script is scheduler friendly. 
-For detailed Script execution: https://o365reports.com/2024/11/12/audit-dlp-policy-matches-in-microsoft-365-using-powershell/
-============================================================================================
-#>
 param (
     [Parameter(Mandatory = $false)]
     [string[]]$TargetUser,
